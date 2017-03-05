@@ -5,6 +5,7 @@ In order to run the project you must have z3 installed. The easiest way is to us
 Dafny, CBMC,KLEE etc.).
 
 When you run the demo, an interactive prompt starts and 4 options ar offered:
+
 1 - get a SAT query
     The demo will return the first random SAT query it finds.
     
