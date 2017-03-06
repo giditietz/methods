@@ -313,7 +313,8 @@ def main():
                 index += 1
 
             print("\nSummary:\n\tSATS:{0}\tUNSATS:{1}\n".format(sats, unsats))
-            file.close()
+            if use_file:
+                file.close()
         elif user == 4:
             print("Goodbye, we hope you've enjoyed the demo!\n")
             running = False
